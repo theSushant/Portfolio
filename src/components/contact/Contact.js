@@ -27,7 +27,7 @@ const Contact = () => {
     }
   }, [showSuccessMsg, showErrorMsg]);
 
-  // ========== Email Success Message Resting Ending ==============
+  // ========== Email Success Message Resting Ending ===============
 
 
   // ========== Email Validation start here ==============
