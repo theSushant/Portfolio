@@ -25,3 +25,6 @@ yarn-error.log*
 
 # configuration
 src/config/config.js
+
+# .gitignore
+.env

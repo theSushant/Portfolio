@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
 import emailjs from '@emailjs/browser';
-import { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } from '../../config/config';
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -61,9 +60,9 @@ const Contact = () => {
       setShowErrorMsg(true);
     } else {
 
-      const serviceId = SERVICE_ID;
-      const templateId = TEMPLATE_ID;
-      const publicKey = PUBLIC_KEY;
+      const serviceId = process.env.SERVICE_ID;
+      const templateId = process.env.TEMPLATE_ID;
+      const publicKey = process.env.PUBLIC_KEY;
 
       const templateParams = {
         to_name: "Sushant",
