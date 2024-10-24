@@ -1,42 +1,28 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaReact, FaDatabase } from "react-icons/fa";
+import { AiOutlineCloudServer } from "react-icons/ai";
+import { HiArrowRight } from "react-icons/hi";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <FaReact />,
+    title: "Frontend Development",
+    des: "Creating dynamic and responsive user interfaces with modern front-end technologies, focusing on seamless user experiences and efficient component-based architecture.",
+    arrow: <HiArrowRight /> 
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <AiOutlineCloudServer />,
+    title: "Backend Development",
+    des: "Developing robust, scalable backends using server-side technologies and integrating databases, ensuring high performance and secure data management.",
+    arrow: <HiArrowRight /> 
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  // {
-  //   id: 4,
-  //   icon: <FaMobile />,
-  //   title: "Mobile Development",
-  //   des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  // },
-  // {
-  //   id: 5,
-  //   icon: <SiAntdesign />,
-  //   title: "UX Design",
-  //   des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  // },
-  // {
-  //   id: 6,
-  //   icon: <FaGlobe />,
-  //   title: "Hosting Websites",
-  //   des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  // },
+    icon: <FaDatabase />,
+    title: "Database Management",
+    des: "Designing, implementing, and maintaining efficient database systems, ensuring secure and reliable data storage, optimized queries, and smooth data retrieval for scalable applications.",
+    arrow: <HiArrowRight /> 
+  }
 ];
