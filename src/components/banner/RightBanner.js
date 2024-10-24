@@ -1,5 +1,4 @@
 import React from 'react'
-import { bannerImg } from "../../assets/index";
 import { coding } from "../../assets/index"
 
 const RightBanner = () => {
