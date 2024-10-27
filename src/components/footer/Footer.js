@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { My_Logo } from '../../assets/index';
 
